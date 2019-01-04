@@ -92,7 +92,25 @@ collections:
             widget: list
             fields: 
               - { label: Title, name: title, widget: string }
-              - { lable: URL, name: url, widget: string}
+              - { label: URL, name: url, widget: string}
+              - { label: Image, name: image, widget: image }
+              - { label: Date, name: date, widget: date }
+              - { label: Annotation, name: annotation, widget: string }
+      - file: _posts/pages/media.md
+        name: media
+        label: Media
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: work }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - label: Media List
+            name: mediaList
+            widget: list
+            fields: 
+              - { label: Title, name: title, widget: string }
+              - { label: URL, name: url, widget: string}
               - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
