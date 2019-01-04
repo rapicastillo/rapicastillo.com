@@ -1,0 +1,35 @@
+@import 'lib/global';
+
+.page {
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .content {
+        padding: 10px;
+        flex-grow: 1;
+        .spiel {
+            width: 500px;
+            h1 {
+                font-family: $cursive;
+                font-size: 4em;
+                color: #ede7d0;
+            }
+            p {
+                font-size: 24px;
+                font-family: $sans-serif;
+                color: #ede7d0;
+                line-height: 32px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                width: 100%;
+            }
+
+            .download {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
