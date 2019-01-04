@@ -50,9 +50,15 @@ collections:
             name: newsList
             widget: list
             fields: 
-              - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
+              - label: Publisher
+                name: publisher
+                widget: object
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Image, name: image, widget: image}
               - { label: Annotation, name: annotation, widget: string }
       - file: _posts/pages/projects.md
         name: projects
@@ -67,8 +73,8 @@ collections:
             name: projectList
             widget: list
             fields: 
-              - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
       - file: _posts/pages/work.md
@@ -84,7 +90,7 @@ collections:
             name: workList
             widget: list
             fields: 
-              - { label: Image, name: image, widget: image }
               - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
