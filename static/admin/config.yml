@@ -94,10 +94,11 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string}
               - { label: Image, name: image, widget: image }
-              - { label: Date, name: date, widget: date }
+              - { label: Start Date, name: date, widget: date }
+              - { label: End Date, name: endDate, widget: date, required: false }
               - { label: Annotation, name: annotation, widget: string }
-      - file: _posts/pages/media.md
-        name: speech
+      - file: _posts/pages/speeches.md
+        name: speeches
         label: Speaking Engagements
         fields:
           - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
@@ -110,7 +111,7 @@ collections:
             widget: list
             fields: 
               - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string}
+              - { label: URL, name: url, widget: string, required: false }
               - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
