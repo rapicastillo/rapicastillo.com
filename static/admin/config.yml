@@ -55,8 +55,8 @@ collections:
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
       - file: _posts/pages/projects.md
-        name: about
-        label: About Rapi
+        name: projects
+        label: Projects
         fields:
           - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
           - {label: Unique ID, name: uniq, widget: string, default: about }
