@@ -1,0 +1,93 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: static/images/uploads
+public_folder: /images/uploads
+accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: _posts/pages/index.md
+        name: index
+        label: Homepage
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: index }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+      - file: _posts/pages/codingasbaking.md
+        name: codeasbake
+        label: Coding as Baking
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: codeasbake }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+      - file: _posts/pages/about.md
+        name: about
+        label: About Rapi
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: about }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+      - file: _posts/pages/news.md
+        name: news
+        label: News
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: news }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - {label: News List, 
+              name: newsList, 
+              widget: list, 
+              fields: 
+                - { label: Image, name: image, widget: image }
+                - { label: Title, name: title, widget: string }
+                - { label: Date, name: date, widget: date }
+                - { label: Annotation, name: annotation, widget: string }
+            }
+      - file: _posts/pages/projects.md
+        name: about
+        label: About Rapi
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: about }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Project List, 
+              name: projectList, 
+              widget: list, 
+              fields: 
+                - { label: Image, name: image, widget: image }
+                - { label: Title, name: title, widget: string }
+                - { label: Date, name: date, widget: date }
+                - { label: Annotation, name: annotation, widget: string }
+            }
+      - file: _posts/pages/work.md
+        name: work
+        label: Work History
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: ignore-fragments }
+          - {label: Unique ID, name: uniq, widget: string, default: work }
+          - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: thumbnail, widget: image}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Project List, 
+              name: workList, 
+              widget: list, 
+              fields: 
+                - { label: Image, name: image, widget: image }
+                - { label: Title, name: title, widget: string }
+                - { label: Date, name: date, widget: date }
+                - { label: Annotation, name: annotation, widget: string }
+            }
