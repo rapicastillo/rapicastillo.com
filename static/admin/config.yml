@@ -51,6 +51,7 @@ collections:
             widget: list
             fields: 
               - { label: Title, name: title, widget: string }
+              - { lable: URL, name: url, widget: string}
               - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - label: Publisher
@@ -91,6 +92,7 @@ collections:
             widget: list
             fields: 
               - { label: Title, name: title, widget: string }
+              - { lable: URL, name: url, widget: string}
               - { label: Image, name: image, widget: image }
               - { label: Date, name: date, widget: date }
               - { label: Annotation, name: annotation, widget: string }
