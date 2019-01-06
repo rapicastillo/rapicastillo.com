@@ -21,10 +21,13 @@
 
 
 //Global
-html,body, #___gatsby, #___gatsby > div, #___gatsby > div > .page { width: 100%; height: 100%; }
+html, body { width: 100%; height: 100%; }
+#___gatsby, #___gatsby > div, #___gatsby > div > .page { width: 100%; min-height: 100%; }
+#___gatsby > div { display: flex; }
 body {
     background-color: $white;
     font-family: $sans-serif;
+    display: flex;
 }
 
 a {
@@ -42,5 +45,11 @@ a {
         &:hover {
             background-color: rgba(120,183, 188, 1);
         }
+    }
+}
+
+@mixin mobile {
+    @media only screen and (max-width: 800px) {
+        @content;
     }
 }

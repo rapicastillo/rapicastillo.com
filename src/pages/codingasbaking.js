@@ -6,16 +6,21 @@ import SEO from '../components/seo'
 
 const CodingAsBakingPage = ({ data: { page: {
   html,
-  frontmatter: { title, thumbnail }
+  frontmatter: { title, image }
 }} }) => {
 
-  console.log(data);
   return (
     <Page>
       <SEO title="Page two" />
-      <h1>Coding as Baking</h1>
-      <p>html</p>
-      <Link to="/">Go back to the homepage</Link>
+      <div className='content'>
+        
+        <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
+          <h1>{title}</h1>
+        </div>
+        
+        <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
+        <Link to="/">Go back to the homepage</Link>
+      </div>
     </Page>
   )
 }
@@ -29,7 +34,7 @@ export const pageQuery = graphql`
         html
         frontmatter {
             title
-            thumbnail
+            image
         }
       }
     }

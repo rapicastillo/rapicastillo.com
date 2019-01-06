@@ -26,11 +26,55 @@
         header, div.content-container {
             width: 800px;
             display: inline-block;
+
+            @include mobile{
+                width: 100vw;
+            }
         }
 
         footer {
             height: 100px;
             background-color: $dark-white;
+        }
+    }
+
+    .content {
+        padding: 0;
+        
+        .featured-image {
+            width: 100%;
+            background-size: cover;
+            height: 450px;
+            margin-top: 10px;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+
+            h1 {
+                font-family: $cursive;
+                font-size: 48px;
+                color: $white;
+                padding: 10px;
+                letter-spacing: -1px;
+            }
+            @include mobile {
+                height: 200px;
+
+                &.big { height: 300px; }
+    
+                &.full { height: 80vh; }
+            }
+
+        }
+
+        .content-area {
+            p {
+                font-size: 20px;
+                line-height: 32px;
+                text-align: left;
+                padding-top: 12px;
+                padding-bottom: 5px;
+            }
         }
     }
 }

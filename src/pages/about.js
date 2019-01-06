@@ -4,17 +4,22 @@ import { Link } from 'gatsby'
 import Page from '../components/page'
 import SEO from '../components/seo'
 
-const AboutPage = ({ data }) => {
-
-  console.log(data);
-  return (
-    <Page>
-      <SEO title="Page two" />
-      <h1>Coding as Baking</h1>
-      <p>html</p>
-      <Link to="/">Go back to the homepage</Link>
-    </Page>
-  )
+const AboutPage = ({ data: { page: {
+    html,
+    frontmatter: { title, image }
+  }} }) => {
+  
+    return (
+      <Page>
+        <SEO title="Page two" />
+        <div className='content'>
+          <h1>{title}</h1>
+          <div className='featured-image' style={{backgroundImage: `url(${image})`}}></div>
+          <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
+          <Link to="/">Go back to the homepage</Link>
+        </div>
+      </Page>
+    )
 }
 
 
@@ -26,7 +31,7 @@ export const pageQuery = graphql`
         html
         frontmatter {
             title
-            thumbnail
+            image
         }
       }
     }

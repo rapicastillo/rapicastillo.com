@@ -1,0 +1,106 @@
+@import '../lib/global';
+header.header {
+
+    div.viewport {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        div.logo {
+            img { width: 32px; height: 32px; margin-right: 5px;}
+            h1 {
+                color: $dark-white;
+                font-family: $cursive;
+                font-size: 26px;
+                letter-spacing: -1px;
+                * { vertical-align: middle; }
+                span { display: inline-block;}
+                a { color: $dark-white;}
+            }
+        }
+
+        nav {
+            padding-top: 2px;
+            ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                li {
+                    
+                    a:not(.button) { 
+                        text-transform: uppercase; 
+                        font-size: 12px;
+                        padding: 0 14px 0 0;
+                        font-weight: 600;
+                        letter-spacing: -0.2px;
+                    }
+                    a.button {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            @include mobile {
+
+                
+                &::before, &::after {
+                    content: '';
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 40px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                
+                &::before {
+                    background-image: url(/images/close.svg);
+                }
+                &::after {
+                    background-image: url(/images/menu.svg);
+                }
+
+                &:not(.open) {
+                    ul { display: none; }
+                    &::after { display: inline-block; }
+                    &::before {
+                        display: none !important;
+                    }
+                }
+
+                &.open {
+                    position: absolute;
+                    width: 100vw;
+                    height: 100vh;
+                    top: 0;
+                    left: 0;
+                    background-color: $white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    &::after { display: none; }
+                    &::before { 
+                        display: inline-block; 
+                        position: absolute;
+                        top: 5px;
+                        right: 5px;
+                    }
+
+                    ul {
+                        flex-direction: column;
+                        li {
+                            padding: 0;
+                            margin: 20px 0;
+                            a {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
