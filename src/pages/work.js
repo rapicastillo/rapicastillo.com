@@ -27,7 +27,7 @@ const WorkPage = ({ data: { page: {
             <div className='content-area-container'>
               <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
               <div>
-                <Link to='/projects/' className={'button'}>Go to Projects Page</Link>
+                <Link to='/projects/' className={'button'}>Go to Projects</Link>
               </div>
             </div>
             <WorkList list={workList} />

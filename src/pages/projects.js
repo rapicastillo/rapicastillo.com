@@ -27,7 +27,7 @@ const ProjectsPage = ({ data: { page: {
             <div className='content-area-container'>
               <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
               <div>
-                <Link to='/' className={'button'}>Go to Projects Page</Link>
+                <Link to='/work/' className={'button'}>Go to Work History</Link>
               </div>
             </div>
             <ProjectList list={projectList} />
@@ -42,7 +42,7 @@ export default ProjectsPage;
 
 export const pageQuery = graphql`
     query ProjectsPage {
-      page: markdownRemark(frontmatter: {uniq: { eq: "project" }}) {
+      page: markdownRemark(frontmatter: {uniq: { eq: "projects" }}) {
         html
         frontmatter {
             title
