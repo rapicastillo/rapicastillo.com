@@ -1,0 +1,30 @@
+@import 'lib/global';
+
+.page.work {
+    .content .featured-image {
+        height: 150px;
+    }
+
+    .main-content {
+        display: flex;
+        .content-area-container {
+            width: 300px;
+            text-align: left;
+            .content-area {
+                padding-right: 10px;
+                margin-bottom: 20px;
+                p {
+                    font-size: 24px;
+                    letter-spacing: -1px;
+                    line-height: 36px;
+                    font-weight: 100;
+                    color: $dark-white;
+                }
+            }
+        }
+        .work-list {
+            flex-grow: 1;
+        }
+    }
+    
+}

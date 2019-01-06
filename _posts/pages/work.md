@@ -13,7 +13,7 @@ workList:
       - AWS
     title: Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.12.33-pm.png
-    url: betofortexas.com
+    url: https://betofortexas.com
   - annotation: Freelancer
     date: 2017-05-07T08:06:56.291Z
     endDate: ''

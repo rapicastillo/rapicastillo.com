@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Page from '../components/page'
 import SEO from '../components/seo'
@@ -21,9 +22,16 @@ const WorkPage = ({ data: { page: {
           <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
           <h1>{title}</h1>
           </div>
-          <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
 
-          <WorkList list={workList} />
+          <div className='main-content'>
+            <div className='content-area-container'>
+              <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
+              <div>
+                <Link to='/' className={'button'}>Go to Projects Page</Link>
+              </div>
+            </div>
+            <WorkList list={workList} />
+          </div>
         </div>
       </Page>
     )
@@ -43,8 +51,8 @@ export const pageQuery = graphql`
               title
               url
               image
-              date(formatString: "MMM DD, YYYY")
-              endDate(formatString: "MMM DD, YYYY")
+              date(formatString: "MMM YYYY")
+              endDate(formatString: "MMM YYYY")
               annotation
               skills
             }

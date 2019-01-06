@@ -15,6 +15,17 @@ class Header extends React.Component {
     }
   }
 
+  toggleMenu = () => {
+    if (this.state.open) {
+      this.setState({ open: false });
+      document.body.style.overflow = 'auto';
+    } else {
+      document.body.style.overflow = 'hidden';
+      this.setState({ open: true });
+    }
+    
+
+  }
   render = () => (
     <header className={'header'}>
       <div className={'viewport'}>
@@ -28,7 +39,7 @@ class Header extends React.Component {
         </div>
         <nav 
           className={this.state.open && 'open'} 
-          onClick={() => { this.setState({ open: !this.state.open })}}
+          onClick={this.toggleMenu.bind(this)}
         >
           <ul>
             <li><Link to='/about/'>About</Link></li>

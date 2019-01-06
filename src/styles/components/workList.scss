@@ -1,0 +1,38 @@
+@import '../lib/global';
+.work-list {
+    ul {
+        li.work-item {
+            display: flex;
+            border-bottom: 1px solid #767a6b29;
+            padding-top: 10px;
+            &:last-child { border-bottom: none; }
+
+            div.work-image {
+                width: 80px;
+                height: 60px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: right;            
+            }
+
+            div.details {
+                flex-grow: 1;
+                text-align: left;
+                padding-left: 10px;
+                padding-top: 5px;
+                flex-basis: 0;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                div.dates {
+                    font-size: 14px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    color: $dark-white;
+                }
+            }
+        }
+    }
+}

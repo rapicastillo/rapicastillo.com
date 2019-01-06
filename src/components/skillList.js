@@ -14,9 +14,9 @@ class SkillList extends React.Component {
 
   render = () => (
     <div className={'skill-list'}>
-      {this.props.label.length > 0 && (<h3>{this.props.label}</h3>) }
+      {this.props.label && (<h3>{this.props.label}</h3>) }
       <ul>
-        {this.props.skills.map(item => (<li className='skill-item' name={item}>{item}</li>))}
+        {this.props.skills && this.props.skills.map(item => (<li className='skill-item' name={item}>{item}</li>))}
       </ul>
     </div>
   );
