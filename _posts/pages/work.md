@@ -16,7 +16,7 @@ workList:
     url: https://betofortexas.com
   - annotation: Freelancer
     date: 2017-05-07T08:06:56.291Z
-    endDate: ''
+    endDate: null
     skills:
       - JavaScript
       - ReactJS
@@ -27,7 +27,7 @@ workList:
     url: 'https://www.rapicastillo.com'
   - annotation: Application used in a lot of Grassroots campaigns
     date: 2018-06-05T08:08:42.456Z
-    endDate: ''
+    endDate: null
     skills:
       - React Native
       - ReactJS
