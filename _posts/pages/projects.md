@@ -44,5 +44,30 @@ projectList:
     title: Walk out the Vote - Map Form
     image: /images/uploads/screen-shot-2019-01-06-at-10.58.12-am.png
     url: 'https://walkoutthevote.org'
+  - annotation: >-
+      Map used to organize and bring people to thousands of March to the Poll
+      events.
+    date: 2019-01-06T16:09:59.030Z
+    skills:
+      - Python
+      - Leaflet
+      - Google Geocode API
+      - Bootstrap 3
+      - JavaScript
+    title: Women's March — March to the Polls
+    image: /images/uploads/womensmarch.png
+    url: 'https://www.womensmarch.org'
+  - annotation: >-
+      Support and build maps for CT Dems. Integration with the organization's
+      CRM.
+    date: 2017-10-17T15:10:00.402Z
+    skills:
+      - Leaflet
+      - Python
+      - Leaflet
+      - JavaScript
+    title: Fight Back CT — Map
+    image: /images/uploads/fightbackct.png
+    url: 'https://map.fightbackct.com/'
 ---
 These are projects done through the years.
