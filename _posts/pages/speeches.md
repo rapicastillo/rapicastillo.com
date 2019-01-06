@@ -13,5 +13,10 @@ speechList:
     title: Netroots 2018
     image: /images/uploads/netroots.jpg
     url: 'https://www.netrootsnation.org/nn_events/nn18/open-source-tech-ftw/'
+  - annotation: Building tools for the Progressive Movement
+    date: 2017-06-27T18:11:14.877Z
+    title: Codeland 2017
+    image: /images/uploads/codeland.png
+    url: 'https://www.youtube.com/watch?v=0e1XwFvr6Zk'
 ---
 As a leader in technology in grassroots communities, I've been invited to speak in various events. Topics range from organizing tech workers to do good, the impact of open source technology in progressive electoral and advocacy campaigns, and in building technology for the grassroots.
