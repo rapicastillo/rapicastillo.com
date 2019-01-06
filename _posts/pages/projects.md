@@ -13,5 +13,12 @@ projectList:
     title: Plan to Win Map — Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.07.30-pm.png
     url: 'https://win.betofortexas.com'
+  - date: 2018-04-30T14:55:15.896Z
+    title: 350.org Megamap
+    image: /images/uploads/350map.png
+    skills:
+      - Leaflet
+      - JavaScript
+    url: 'https://350map.org'
 ---
 These are projects done through the years.
