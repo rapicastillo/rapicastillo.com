@@ -2,14 +2,19 @@ import React from 'react'
 
 import Page from '../components/page'
 import SEO from '../components/seo'
+import WorkList from '../components/workList';
+
+import '../styles/work.scss';
 
 const WorkPage = ({ data: { page: {
     html,
-    frontmatter: { title, image }
+    frontmatter: { title, image ,
+      workList
+    }
   }} }) => {
-  
+    console.log(workList);
     return (
-      <Page>
+      <Page className={'work'}>
         <SEO title="Page two" />
         <div className='content'>
           
@@ -17,6 +22,8 @@ const WorkPage = ({ data: { page: {
           <h1>{title}</h1>
           </div>
           <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
+
+          <WorkList list={workList} />
         </div>
       </Page>
     )
@@ -33,8 +40,11 @@ export const pageQuery = graphql`
             title
             image
             workList {
-              date
-              endDate
+              title
+              url
+              image
+              date(formatString: "MMM DD, YYYY")
+              endDate(formatString: "MMM DD, YYYY")
               annotation
               skills
             }
