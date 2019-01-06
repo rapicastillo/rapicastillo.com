@@ -9,6 +9,11 @@ skillList:
     - palmiers
     - pithivier au chocolat
     - english muffins
+    - basic bread
+    - naan
+    - sourdough bread
+    - petits choux
+    - macarons
   expert:
     - JavaScript
     - React Native
