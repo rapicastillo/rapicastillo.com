@@ -14,5 +14,16 @@ workList:
     title: Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.12.33-pm.png
     url: betofortexas.com
+  - annotation: Freelancer
+    date: 2017-05-07T08:06:56.291Z
+    endDate: ''
+    skills:
+      - JavaScript
+      - ReactJS
+      - React Native
+      - Mapbox GL JS
+    title: Tech Consultant
+    image: /images/uploads/rapi-castillo-copy.jpg
+    url: 'https://www.rapicastillo.com'
 ---
 The following are projects I have worked on as a full time employee and as a freelance developer.
