@@ -1,5 +1,5 @@
 ---
-uniq: codeasbake
+uniq: codingasbaking
 title: Coding as Baking
 thumbnail: /images/uploads/croissant-delicious-food-1510685.jpg
 ---
