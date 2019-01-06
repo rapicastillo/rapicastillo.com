@@ -6,6 +6,11 @@ workList:
   - annotation: Worked as a tech consultant
     date: 2018-09-18T17:12:18.064Z
     endDate: 2018-10-31T06:11:20.830Z
+    skills:
+      - JavaScript
+      - Mapbox GL JS
+      - Leaflet
+      - AWS
     title: Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.12.33-pm.png
     url: betofortexas.com
