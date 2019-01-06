@@ -3,7 +3,7 @@ uniq: speeches
 title: Speaking Engagements
 image: /images/uploads/screen-shot-2019-01-04-at-1.42.09-pm.png
 speechList:
-  - annotation: I hosted two sessions about Ocasio 2018's tech and digital work.
+  - annotation: 'Alexandria Ocasio-Cortez 2018: Digital, Tech, and Data '
     date: 2018-12-01T18:46:59.340Z
     title: 'Rootscamp: Ocasio 2018'
     image: /images/uploads/screen-shot-2019-01-04-at-1.47.43-pm.png
