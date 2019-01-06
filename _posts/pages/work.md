@@ -25,5 +25,15 @@ workList:
     title: Tech Consultant
     image: /images/uploads/rapi-castillo-copy.jpg
     url: 'https://www.rapicastillo.com'
+  - date: 2018-06-05T08:08:42.456Z
+    endDate: ''
+    skills:
+      - React Native
+      - ReactJS
+      - Redux
+      - JavaScript
+    title: Reach Technologies LLC
+    image: /images/uploads/screen-shot-2019-01-06-at-4.09.29-am.png
+    url: 'https://www.reach.vote/'
 ---
 The following are projects I have worked on as a full time employee and as a freelance developer.
