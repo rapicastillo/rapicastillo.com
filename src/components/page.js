@@ -17,9 +17,9 @@ const Page = ({ children, showHeader = true, fullHeader = false, bgImage }) => (
       }
     `}
     render={data => (
-      <div className={'page'} style={{ backgroundImage: bgImage ? `url(${bgImage})` : 'none' }}>
+      <div className={`page ${showHeader && 'page-with-header'}`} style={{ backgroundImage: bgImage ? `url(${bgImage})` : 'none' }}>
         {showHeader && (<Header siteTitle={data.site.siteMetadata.title} full={fullHeader} />)}
-        <div class='content-container'>
+        <div className='content-container'>
           {children}
         </div>
         <footer>

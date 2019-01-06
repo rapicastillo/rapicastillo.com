@@ -1,7 +1,7 @@
 ---
-uniq: codeasbake
+uniq: codingasbaking
 title: Coding as Baking
-thumbnail: /images/uploads/croissant-delicious-food-1510685.jpg
+image: /images/uploads/croissant-delicious-food-1510685.jpg
 ---
 I started baking in 2018, after I binged watched Great British Bakeoff on Netflix. I have always wanted to bake. When I was still living in the Philippines as a child, I would salivate on the images of baked goods in American cookbooks. Ovens were a rarity (if non-existent) in households there, but here in America there's an oven in every house, so I was empowered in experimenting different bakes. 
 

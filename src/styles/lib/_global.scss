@@ -17,6 +17,7 @@
     $dark-red: #d09589;
     $red: #e8a699;
     $white: #f7f9f2;
+    $dark-white: #767a6b;
 
 
 //Global
@@ -37,5 +38,9 @@ a {
         padding: 0.2em 0.4em;
         border-radius: 0.2em;
         line-height: 1.5em; 
+        transition: background-color 0.4s;
+        &:hover {
+            background-color: rgba(120,183, 188, 1);
+        }
     }
 }

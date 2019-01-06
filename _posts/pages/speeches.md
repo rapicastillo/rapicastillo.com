@@ -1,7 +1,7 @@
 ---
 uniq: speeches
 title: Speaking Engagements
-thumbnail: /images/uploads/screen-shot-2019-01-04-at-1.42.09-pm.png
+image: /images/uploads/screen-shot-2019-01-04-at-1.42.09-pm.png
 speechList:
   - annotation: I hosted two sessions about Ocasio 2018's tech and digital work.
     date: 2019-01-04T18:46:59.340Z

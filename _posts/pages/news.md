@@ -1,7 +1,7 @@
 ---
 uniq: news
 title: In the News
-thumbnail: /images/uploads/screen-shot-2019-01-04-at-12.58.45-pm.png
+image: /images/uploads/screen-shot-2019-01-04-at-12.58.45-pm.png
 newsList:
   - annotation: 'I developed, managed, and released Reach''s mobile native applications'
     date: 2018-11-09T17:54:07.323Z

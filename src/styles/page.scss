@@ -15,5 +15,26 @@
         font-family: $sans-serif;
         padding: 2px;
         font-size: 11px;
+        width: 100%;
     }
+
+    &.page-with-header {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        header, div.content-container {
+            width: 800px;
+            display: inline-block;
+        }
+
+        footer {
+            height: 100px;
+            background-color: $dark-white;
+        }
+    }
+}
+
+#___gatsby > div {
+    text-align: center;
 }
