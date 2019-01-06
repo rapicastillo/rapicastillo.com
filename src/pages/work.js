@@ -32,10 +32,12 @@ export const pageQuery = graphql`
         frontmatter {
             title
             image
-            date
-            endDate
-            annotation
-            skills
+            workList {
+              date
+              endDate
+              annotation
+              skills
+            }
         }
       }
     }
