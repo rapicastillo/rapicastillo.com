@@ -6,7 +6,7 @@ speechList:
   - annotation: 'Alexandria Ocasio-Cortez 2018: Digital, Tech, and Data '
     date: 2018-12-01T18:46:59.340Z
     title: 'Rootscamp: Ocasio 2018'
-    image: /images/uploads/screen-shot-2019-01-04-at-1.47.43-pm.png
+    image: /images/uploads/rootscamp.png
     url: 'http://rootscamp.wellstone.org'
   - annotation: 'Open Source Tech #FTW'
     date: 2018-08-02T18:07:22.172Z
