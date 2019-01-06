@@ -9,4 +9,3 @@ As a developer he uses his knowledge in grassroots organizing as a tech worker f
 
 In community organizing, Rapi aims to build meaningful relationships amongst people with common goals. As the founder of [Progressive Coders Network](https://www.progcode.org), he sought to create a space for tech workers across the world can build open source solutions for non-profits and grassroots campaigns to effectively remove the influence of big-money in politics. He also co-founded and [**Progressive HackNight**](https://www.progressivehacknight.org), a bi-weekly meetup in New York City, to educate tech workers on the most pressing issues of the day. He is also a founding member of Queens United Independent People, a civic-education organization based in Queens.
 
-****[**Download Resume**](/files/rapiresume.pdf)****
