@@ -2,6 +2,45 @@
 uniq: about
 title: About Rapi
 image: /images/uploads/rapi-castillo-copy.jpg
+skillList:
+  bakes:
+    - croissant
+    - galette des rois
+    - palmiers
+    - pithivier au chocolat
+    - english muffins
+  expert:
+    - JavaScript
+    - React Native
+    - ReactJS
+    - Mapbox GL JS
+    - Leaflet
+  rusty:
+    - R
+    - Anaconda/Jupyter
+    - Java
+    - Ruby
+    - C/C++
+    - AWS
+    - Wordpress
+    - django
+    - flask
+    - numpy
+    - Ruby on Rails
+    - sketch
+    - illustrator
+    - gimp
+  skilled:
+    - PHP
+    - Python
+    - jQuery
+    - d3
+    - Drupal
+    - Photoshop
+    - MySQL
+    - PostgreSQL
+    - Linux
+    - Netlify CMS
 ---
 Rapi Castillo is a tech worker, community organizer, and (amateur) baker. He has developed maps, interactives, mobile application, and websites for various clients in the non-profit and startup sector. He has founded and volunteers for open-source centered organizations and community organizations. He lives in Queens, New York with his husband **Benny** and cat **Poufie**.
 
