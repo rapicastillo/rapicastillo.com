@@ -1,0 +1,79 @@
+@import '../lib/global';
+
+.news-list {
+    ul {
+        // -webkit-column-count: 2;
+        // column-count: 2;
+        // -webkit-column-gap: 1em;
+        // column-gap: 1em;
+        
+
+        li.news-item {
+            position: relative;
+            display: flex;
+            margin: 0 0 1em;
+            background: whitesmoke;
+            width: 100%;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            border-radius: 4px;
+
+            div.annotation {
+                background-color: rgba(255,255,255,0.8);
+                padding: 3px 0 4px 10px;
+                color: $gray;
+                border-left: 3px solid $gray;
+                margin-top: 12px;
+
+                p {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+
+            div.work-image {
+                width: 150px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: right;      
+                border-radius: 4px 0 0 4px 
+            }
+
+            div.details {
+                flex-grow: 1;
+                text-align: left;
+                padding: 10px;
+                flex-basis: 0;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                div.publisher-container {
+                    font-size: 14px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    color: $dark-white;
+                    span.publisher {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                    img.publisher-img {
+                        height: 20px;
+                        margin-right: 3px;
+                    }
+
+                    .date {
+                        margin-left: 5px;
+                        padding: 2px 0 3px 5px;
+                        border-left: 1px solid gray;
+                        font-size: 9px;
+                        text-transform: uppercase;
+                        font-weight: 100;
+                    }
+
+                }
+            }
+        }
+    }
+}

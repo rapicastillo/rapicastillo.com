@@ -38,7 +38,7 @@ class Header extends React.Component {
           </h1>
         </div>
         <nav 
-          className={this.state.open && 'open'} 
+          className={this.state.open ? 'open' : ''}  
           onClick={this.toggleMenu.bind(this)}
         >
           <ul>

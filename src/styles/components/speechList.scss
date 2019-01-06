@@ -1,0 +1,59 @@
+@import '../lib/global';
+
+.speech-list {
+    flex-grow: 1;
+    flex-basis: 0;
+    ul {
+        // -webkit-column-count: 2;
+        // column-count: 2;
+        // -webkit-column-gap: 1em;
+        // column-gap: 1em;
+        margin-top: 20px;
+        
+
+        li.speech-item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 1em;
+            background: whitesmoke;
+            width: 50%;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            border-radius: 4px;
+
+            div.annotation {
+                font-size: 14px;
+                line-height: 20px;
+                color: $dark-white;
+            }
+
+            div.work-image {
+                width: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                border-radius: 4px 4px 0 0;
+                height: 160px;
+            }
+
+            div.details {
+                flex-grow: 1;
+                text-align: left;
+                padding: 10px;
+                flex-basis: 0;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                div.date-container {
+                    font-size: 10px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    color: $dark-white;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
