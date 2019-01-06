@@ -27,6 +27,10 @@
                 font-weight: 600;
                 color: $dark-white;
             }
+
+            div.skill-list {
+                margin-bottom: 20px;
+            }
         }
 
         @include mobile {
@@ -38,6 +42,8 @@
 
                 padding: 0;
                 margin: 0;
+                
+                
             }
         }
     }
