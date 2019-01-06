@@ -25,7 +25,8 @@ workList:
     title: Tech Consultant
     image: /images/uploads/rapi-castillo-copy.jpg
     url: 'https://www.rapicastillo.com'
-  - date: 2018-06-05T08:08:42.456Z
+  - annotation: Application used in a lot of Grassroots campaigns
+    date: 2018-06-05T08:08:42.456Z
     endDate: ''
     skills:
       - React Native
