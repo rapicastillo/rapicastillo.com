@@ -32,10 +32,9 @@ class Header extends React.Component {
         >
           <ul>
             <li><Link to='/about/'>About</Link></li>
-            <li><Link to='/news/'>In the News</Link></li>
-            <li><Link to='/speeches/'>Speeches</Link></li>
-            <li><Link to='/projects/'>Projects</Link></li>
             <li><Link to='/work/'>Works</Link></li>
+            <li><Link to='/media/'>Media Appearances</Link></li>
+            <li><Link to='/codingasbaking/'>Code as Bake</Link></li>
             <li><a rel="noopener noreferrer" href='/files/rapiresume.pdf' className='resume button' target='_blank'><FaDownload /> Download Resume</a></li>
           </ul>
         </nav>
