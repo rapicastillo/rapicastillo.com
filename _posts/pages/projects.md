@@ -13,5 +13,36 @@ projectList:
     title: Plan to Win Map — Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.07.30-pm.png
     url: 'https://win.betofortexas.com'
+  - annotation: >-
+      A year long Project with 350.org. Built a megamap system that pulls events
+      and group information from all of their CRMs and pooled it in one endpoint
+      for easy access. Data sources range from CRM's to online Spreadsheets
+    date: 2018-04-30T14:55:15.896Z
+    skills:
+      - Python
+      - Leaflet
+      - JavaScript
+      - AWS
+      - Linux
+      - Mapbox GL JS
+      - D3
+    title: 350.org Megamap
+    image: /images/uploads/350map.png
+    url: 'https://350map.org'
+  - annotation: >-
+      Project with the Future Coalition. Focused on integrating the
+      ActionNetwork form API with Google Spreadsheets to implement a host
+      vetting process
+    date: 2019-01-06T15:57:15.727Z
+    skills:
+      - Python
+      - JavaScript
+      - SASS
+      - MailGun API
+      - Slack API
+      - Google Spreadsheets API
+    title: Walk out the Vote - Map Form
+    image: /images/uploads/screen-shot-2019-01-06-at-10.58.12-am.png
+    url: 'https://walkoutthevote.org'
 ---
 These are projects done through the years.
