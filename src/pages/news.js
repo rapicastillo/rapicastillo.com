@@ -13,8 +13,9 @@ const NewsPage = ({ data: { page: {
       <Page>
         <SEO title="Page two" />
         <div className='content'>
-          <h1>{title}</h1>
-          <div className='featured-image' style={{backgroundImage: `url(${image})`}}></div>
+          <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
+            <h1>{title}</h1>
+          </div>
           <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
           <Link to="/">Go back to the homepage</Link>
         </div>

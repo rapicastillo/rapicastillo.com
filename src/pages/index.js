@@ -12,9 +12,9 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className='content'>
       <div className='spiel'>
-        <h1>Rapi Castillo</h1>
-        <p>Hi! I'm Rapi and I code as I bake.<br/>
-          My goal in both my tech work and bakes is to always create something beautiful and sustainable, give joy, and build relationships</p>
+        <h1>Hi! I'm Rapi</h1>
+        <p>I'm a tech worker, community organizer, and amateur baker based in New York.<br/>
+          My goal in my tech work, organizing, and bakes is to always create something beautiful and sustainable, give joy, and build meaningful relationships</p>
         <Link className={'button'} to="/codingasbaking/" style={{marginTop: 10 }}>Read more</Link>
         <p><a className={'download'} target='_blank' href='/files/rapiresume.pdf'><FaDownload /> Download my Resume</a></p>
       </div>
