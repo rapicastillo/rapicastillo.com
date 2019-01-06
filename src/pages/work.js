@@ -15,7 +15,7 @@ const WorkPage = ({ data: { page: {
         <div className='content'>
           
           <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
-          <h1 style={{color: '#767a6b'}}>{title}</h1>
+          <h1>{title}</h1>
           </div>
           <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
           <Link to="/">Go back to the homepage</Link>

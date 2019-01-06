@@ -37,6 +37,14 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
+          - label: Skill List
+            name: skillList
+            widget: object
+            fields:
+              - { label: Expert, name: expert, widget: list }
+              - { label: Skilled, name: skilled, widget: list }
+              - { label: Prior Experience, name: rusty, widget: list }
+              - { label: Bakes, name: bakes, widget: list }
       - file: _posts/pages/news.md
         name: news
         label: News
