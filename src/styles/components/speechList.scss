@@ -9,17 +9,20 @@
         // -webkit-column-gap: 1em;
         // column-gap: 1em;
         margin-top: 20px;
-        
+
+        display: flex;
+        flex-wrap: wrap;
 
         li.speech-item {
             position: relative;
             display: flex;
             flex-direction: column;
-            margin: 0 0 1em;
             background: whitesmoke;
-            width: 50%;
+            width: calc(50% - 10px);
             box-shadow: 0 1px 1px rgba(0,0,0,0.1);
             border-radius: 4px;
+            margin-left: 10px;
+            margin-bottom: 10px;
 
             div.annotation {
                 font-size: 14px;
