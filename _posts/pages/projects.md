@@ -31,6 +31,7 @@ projectList:
       - SASS
       - MailGun API
       - Slack API
+      - Google Spreadsheets API
     title: Walk out the Vote - Map Form
     image: /images/uploads/screen-shot-2019-01-06-at-10.58.12-am.png
     url: 'https://walkoutthevote.org'
