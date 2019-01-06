@@ -3,19 +3,19 @@ import { Link } from 'gatsby'
 
 import Page from '../components/page'
 import SEO from '../components/seo'
-import WorkList from '../components/workList';
+import ProjectList from '../components/projectList';
 
-import '../styles/work.scss';
+import '../styles/projects.scss';
 
-const WorkPage = ({ data: { page: {
+const ProjectsPage = ({ data: { page: {
     html,
     frontmatter: { title, image ,
-      workList
+        projectList
     }
   }} }) => {
-    console.log(workList);
+    console.log(projectList);
     return (
-      <Page className={'work'}>
+      <Page className={'projects'}>
         <SEO title="Page two" />
         <div className='content'>
           
@@ -27,10 +27,10 @@ const WorkPage = ({ data: { page: {
             <div className='content-area-container'>
               <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
               <div>
-                <Link to='/projects/' className={'button'}>Go to Projects Page</Link>
+                <Link to='/' className={'button'}>Go to Projects Page</Link>
               </div>
             </div>
-            <WorkList list={workList} />
+            <ProjectList list={projectList} />
           </div>
         </div>
       </Page>
@@ -38,21 +38,20 @@ const WorkPage = ({ data: { page: {
 }
 
 
-export default WorkPage;
+export default ProjectsPage;
 
 export const pageQuery = graphql`
-    query WorkPage {
-      page: markdownRemark(frontmatter: {uniq: { eq: "work" }}) {
+    query ProjectsPage {
+      page: markdownRemark(frontmatter: {uniq: { eq: "project" }}) {
         html
         frontmatter {
             title
             image
-            workList {
+            projectList {
               title
               url
               image
               date(formatString: "MMM YYYY")
-              endDate
               annotation
               skills
             }
