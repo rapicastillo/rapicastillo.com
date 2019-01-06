@@ -3,6 +3,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
+import moment from 'moment';
+
 import SkillList from './skillList';
 import { FaDownload } from 'react-icons/fa';
 import '../styles/components/workList.scss';
@@ -12,7 +14,7 @@ class WorkList extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(props);
+    console.log("MOMENT", moment);
   }
 
   render = () => (
@@ -24,7 +26,7 @@ class WorkList extends React.Component {
                 <div className={'details'}>
                     <h3><a href={item.url}>{item.title}</a></h3>
                     <div className={'dates'}>
-                        <span>{item.date} &mdash; {item.endDate || 'Present'}</span>
+                        <span>{item.date} &mdash; { item.endDate ? moment(new Date(item.endDate)).format("MMM YYYY") : 'Present'}</span>
                     </div>
                     <SkillList skills={item.skills}/>
                 </div>

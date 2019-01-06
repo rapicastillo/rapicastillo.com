@@ -52,7 +52,7 @@ export const pageQuery = graphql`
               url
               image
               date(formatString: "MMM YYYY")
-              endDate(formatString: "MMM YYYY")
+              endDate
               annotation
               skills
             }
