@@ -14,7 +14,6 @@ class WorkList extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log("MOMENT", moment);
   }
 
   render = () => (
