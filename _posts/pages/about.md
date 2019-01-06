@@ -4,7 +4,7 @@ title: About Rapi
 image: /images/uploads/rapi-castillo-copy.jpg
 skillList:
   bakes:
-    - croissant
+    - croissants
     - galette des rois
     - palmiers
     - pithivier au chocolat
