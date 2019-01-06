@@ -24,7 +24,7 @@
         justify-content: center;
 
         header, div.content-container {
-            width: 800px;
+            width: 900px;
             display: inline-block;
 
             @include mobile{
@@ -69,11 +69,19 @@
 
         .content-area {
             p {
-                font-size: 20px;
-                line-height: 32px;
+                font-size: 18px;
+                line-height: 26px;
                 text-align: left;
                 padding-top: 12px;
                 padding-bottom: 5px;
+
+                a {
+                    font-weight: 600;
+                    transition: color 0.4s;
+                    &:hover {
+                        color: $dark-green;
+                    }
+                }
             }
         }
     }

@@ -1,0 +1,44 @@
+@import 'lib/global';
+
+.page.about {
+    .main-content {
+        display: flex;
+        margin-top: 20px;
+
+        .left-area {
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+        .right-area {
+            width: 250px;
+            padding-left: 10px;
+            margin-left: 10px;
+            padding-top: 10px;
+
+            h2 {
+                font-family: $sans-serif;
+                font-size: 22px;
+                text-transform: uppercase;
+                border-bottom: 1px solid;
+                padding-bottom: 9px;
+                margin-bottom: 9px;
+                margin-top: 5px;
+                text-align: left;
+                font-weight: 600;
+                color: $dark-white;
+            }
+        }
+
+        @include mobile {
+            flex-direction: column;
+            padding: 0 10px;
+
+            .right-area {
+                width: 100%;
+
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}

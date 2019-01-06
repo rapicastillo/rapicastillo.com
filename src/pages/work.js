@@ -36,6 +36,14 @@ export const pageQuery = graphql`
             image
         }
       }
+
+      projects: markdownRemark(frontmatter: {uniq: { eq: "projects" }}) {
+        html
+        frontmatter {
+            title
+            image
+        }
+      }
     }
       
 `;
