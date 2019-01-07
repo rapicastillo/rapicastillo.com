@@ -29,9 +29,9 @@ header.header {
                 flex-direction: row;
                 align-items: center;
                 li {
-                    
-                    a:not(.button) { 
-                        text-transform: uppercase; 
+
+                    a:not(.button) {
+                        text-transform: uppercase;
                         font-size: 12px;
                         padding: 0 14px 0 0;
                         font-weight: 600;
@@ -45,7 +45,7 @@ header.header {
 
             @include mobile {
 
-                
+
                 &::before, &::after {
                     content: '';
                     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ header.header {
                     height: 40px;
                     display: inline-block;
                 }
-                
+
                 &::before {
                     background-image: url(/images/close.svg);
                 }
@@ -82,8 +82,8 @@ header.header {
                     justify-content: center;
 
                     &::after { display: none; }
-                    &::before { 
-                        display: inline-block; 
+                    &::before {
+                        display: inline-block;
                         position: absolute;
                         top: 5px;
                         right: 5px;

@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:300,400,600,800');
 
-//Variables 
+//Variables
     //fonts
     $cursive: 'Dancing Script', cursive;
     $sans-serif: 'Raleway', sans-serif;
@@ -41,7 +41,7 @@ a {
         color: $white;
         padding: 0.2em 0.4em;
         border-radius: 0.2em;
-        line-height: 1.5em; 
+        line-height: 1.5em;
         transition: background-color 0.4s;
         &:hover {
             background-color: rgba(120,183, 188, 1);

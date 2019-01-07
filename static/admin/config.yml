@@ -28,6 +28,13 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Featured Image, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
+          - label: Bakes
+            name: bakeList
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: Recipe, name: url, widget: string }
       - file: _posts/pages/about.md
         name: about
         label: About Rapi
