@@ -83,7 +83,7 @@ newsList:
     title: Bernie Sanders’s Online Foot Soldiers Weigh Their Next Campaign
     image: /images/uploads/berniesocial.jpg
     publisher:
-      image: /images/uploads/nyt.png
+      image: /images/uploads/the_new_york_times_logo.png
       name: The New York Times
     url: >-
       https://www.nytimes.com/2016/05/06/us/politics/bernie-sanders-online-support.html
@@ -96,5 +96,23 @@ newsList:
       name: Politico
     url: >-
       https://www.politico.com/magazine/story/2016/02/bernie-sanders-army-of-coders-2016-213647
+  - annotation: Map work featured in the article.
+    date: 2019-01-07T19:29:52.919Z
+    title: Legion of Tech Volunteers Lead a Charge for Bernie Sanders
+    image: /images/uploads/legion.png
+    publisher:
+      image: /images/uploads/the_new_york_times_logo.png
+      name: New York Times
+    url: >-
+      https://www.nytimes.com/2015/09/04/us/politics/bernie-sanders-presidential-campaign-tech-supporters.html
+  - annotation: Map created for Bernie featured heavily in the article.
+    date: 2015-07-29T18:29:53.776Z
+    title: 'Bernie Sanders expects 100,000 people to attend his house party'
+    image: /images/uploads/berniesanders.jpg
+    publisher:
+      image: /images/uploads/screen-shot-2019-01-04-at-12.49.03-pm.png
+      name: Mashable
+    url: >-
+      https://webcache.googleusercontent.com/search?q=cache:AzmwIuSEtp4J:https://mashable.com/2015/07/29/bernie-sanders-house-party/+&cd=6&hl=en&ct=clnk&gl=us
 ---
 Rapi in the news
