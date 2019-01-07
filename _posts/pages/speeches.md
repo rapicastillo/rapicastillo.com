@@ -18,5 +18,15 @@ speechList:
     title: Codeland 2017
     image: /images/uploads/codeland.png
     url: 'https://www.youtube.com/watch?v=0e1XwFvr6Zk'
+  - annotation: Open-Sourced Movements
+    date: 2017-06-10T19:22:14.648Z
+    title: Personal Democracy Forum 2017
+    image: /images/uploads/whatwedonow.jpg
+    url: 'https://youtube.com/watch?v=VRoXTLLMB3Q'
+  - annotation: Queer Tech NYC w/ Rapi Castillo
+    date: 2017-03-21T19:24:49.319Z
+    title: Dev Bootcamp NYC Events and Workshops
+    image: /images/uploads/devbootcamp.png
+    url: 'https://www.meetup.com/DBC-NYC/events/238678650/'
 ---
 As a leader in technology in grassroots communities, I've been invited to speak in various events. Topics range from organizing tech workers to do good, the impact of open source technology in progressive electoral and advocacy campaigns, and in building technology for the grassroots.
