@@ -73,6 +73,7 @@ header.header {
                 }
 
                 &.open {
+                    -webkit-backface-visibility: hidden;
                     position: absolute;
                     width: 100vw;
                     height: 100vh;
