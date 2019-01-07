@@ -8,6 +8,13 @@
         .left-area {
             flex-grow: 1;
             flex-basis: 0;
+            .content-area {
+                p {
+                    color: $dark-white;
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+            }
         }
         .right-area {
             width: 250px;

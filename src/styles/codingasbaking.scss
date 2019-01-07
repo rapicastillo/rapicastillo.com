@@ -14,12 +14,12 @@
             .content-area {
                 padding-right: 10px;
                 margin-bottom: 20px;
+                margin-top: 20px;
                 p {
-                    font-size: 18px;
-                    // letter-spacing: -1px;
-                    line-height: 26px;
-                    // font-weight: 100;
+                    font-size: 16px;
                     color: $dark-white;
+                    line-height: 28px;
+                    &:first-child {}
                 }
             }
         }
@@ -33,11 +33,12 @@
 
         @include mobile {
             flex-direction: column;
+            
             .content-area-container {
                 width: calc(100% - 40px);
                 padding: 20px;
                 .content-area {
-                    
+                    margin-top: 0;
                 }
             }
 
