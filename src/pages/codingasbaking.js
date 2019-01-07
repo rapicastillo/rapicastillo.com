@@ -4,22 +4,30 @@ import { Link } from 'gatsby'
 import Page from '../components/page'
 import SEO from '../components/seo'
 
+import BakeList from '../components/bakeList';
+
+import '../styles/codingasbaking.scss';
+
 const CodingAsBakingPage = ({ data: { page: {
   html,
-  frontmatter: { title, image }
+  frontmatter: { title, image, bakeList }
 }} }) => {
 
   return (
-    <Page>
-      <SEO title="Page two" />
+    <Page className='codingasbaking'>
+      <SEO title="Coding as Baking | Rapi Castillo" />
       <div className='content'>
         
         <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
           <h1>{title}</h1>
         </div>
         
-        <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
-        <Link to="/">Go back to the homepage</Link>
+        <div className='main-content'>
+            <div className='content-area-container'>
+              <div className='content-area' dangerouslySetInnerHTML={{__html: html}}></div>
+            </div>
+            <BakeList list={bakeList}/>
+          </div>
       </div>
     </Page>
   )
@@ -35,6 +43,11 @@ export const pageQuery = graphql`
         frontmatter {
             title
             image
+            bakeList {
+              name
+              image
+              url
+            }
         }
       }
     }

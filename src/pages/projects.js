@@ -13,7 +13,7 @@ const ProjectsPage = ({ data: { page: {
         projectList
     }
   }} }) => {
-    console.log(projectList);
+
     return (
       <Page className={'projects'}>
         <SEO title="Page two" />

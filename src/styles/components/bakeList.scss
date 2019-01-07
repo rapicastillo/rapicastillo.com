@@ -1,43 +1,34 @@
 @import '../lib/global';
 
-.speech-list {
-    flex-grow: 1;
-    flex-basis: 0;
+.bake-list {
     ul {
         // -webkit-column-count: 2;
         // column-count: 2;
         // -webkit-column-gap: 1em;
         // column-gap: 1em;
-        margin-top: 20px;
+        
 
-        display: flex;
-        flex-wrap: wrap;
-
-        li.speech-item {
+        li.bake-item {
             position: relative;
-            display: flex;
-            flex-direction: column;
+            display: inline-block;
+            margin: 0 0 1em;
             background: whitesmoke;
-            width: calc(50% - 10px);
+            width: 100%;
             box-shadow: 0 1px 1px rgba(0,0,0,0.1);
             border-radius: 4px;
-            margin-left: 10px;
-            margin-bottom: 10px;
 
-            div.annotation {
+            div.annotation p {
                 font-size: 14px;
                 line-height: 20px;
-                color: $dark-white;
             }
 
-            div.work-image {
+            div.bake-image {
                 width: 100%;
+                height: 200px;
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center center;
+                background-position: right;      
                 border-radius: 4px 4px 0 0;
-                height: 160px;
-
                 a {
                     display: inline-block;
                     width: 100%;
@@ -50,17 +41,22 @@
                 text-align: left;
                 padding: 10px;
                 flex-basis: 0;
+                position: absolute;
+                bottom: 0;
+                background-color: rgba(0,0,0,0.4);
+                width: calc(100% - 20px);
 
                 h3 {
                     font-size: 18px;
-                    font-weight: 600;
+                    font-weight: 400;
+                    font-family: $cursive;
+                    a {color: $white;}
                 }
-                div.date-container {
-                    font-size: 10px;
+                div.dates {
+                    font-size: 14px;
                     margin-top: 5px;
                     margin-bottom: 5px;
                     color: $dark-white;
-                    text-transform: uppercase;
                 }
             }
         }

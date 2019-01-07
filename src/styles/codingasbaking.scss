@@ -1,1 +1,34 @@
 @import 'lib/global';
+
+.page.codingasbaking {
+    .content .featured-image {
+        // height: 150px;
+    }
+
+    .main-content {
+        display: flex;
+        .content-area-container {
+            text-align: left;
+            flex-grow: 1;
+            flex-basis: 0;
+            .content-area {
+                padding-right: 10px;
+                margin-bottom: 20px;
+                p {
+                    font-size: 18px;
+                    // letter-spacing: -1px;
+                    line-height: 26px;
+                    // font-weight: 100;
+                    color: $dark-white;
+                }
+            }
+        }
+        .bake-list {
+            // flex-grow: 1;
+            // flex-basis: 0;
+            padding:  20px 0 20px 20px;
+            width: 200px;
+        }
+    }
+    
+}

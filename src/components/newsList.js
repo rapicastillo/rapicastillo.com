@@ -20,7 +20,9 @@ class NewsList extends React.Component {
       <ul>
         {this.props.list.map((item) => (
             <li className='news-item'>
-                <div className={'work-image'} style={{backgroundImage: `url(${item.image})`}}></div>
+                <div className={'work-image'} style={{backgroundImage: `url(${item.image})`}}>
+                <a href={item.url}></a>
+                </div>
                 <div className={'details'}>
                     <h3><a href={item.url}>{item.title}</a></h3>
                     <div className={'publisher-container'}>
