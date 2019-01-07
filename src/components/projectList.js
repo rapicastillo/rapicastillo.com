@@ -27,7 +27,7 @@ class ProjectList extends React.Component {
                 <div className={'details'}>
                     <h3><a href={item.url}>{item.title}</a></h3>
                     <div className={'dates'}>
-                        <span>{item.date} &mdash; { item.endDate ? moment(new Date(item.endDate)).format("MMM YYYY") : 'Present'}</span>
+                        <span>{item.date}</span>
                     </div>
                     <div className={'annotation'}>
                         <p>{item.annotation}</p>
