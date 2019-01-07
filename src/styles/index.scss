@@ -60,13 +60,19 @@
                 }
             }
 
-            @media only screen and (max-width: 600px) {
-                width: 100%;
-            }
+            
 
             .download {
                 font-size: 14px;
             }
+        }
+
+        @include mobile {
+            padding: 20px 30px;
+            .spiel, .spiel p, .images {
+                width: 100%;
+            }
+            
         }
     }
     

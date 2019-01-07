@@ -11,7 +11,7 @@
         li.project-item {
             position: relative;
             display: inline-block;
-            margin: 0 0 1em;
+            // margin: 0 0 1em;
             background: whitesmoke;
             width: 100%;
             box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -53,6 +53,21 @@
                     margin-bottom: 5px;
                     color: $dark-white;
                 }
+            }
+        }
+    }
+
+    @include mobile {
+        padding: 0 !important;
+        ul {
+            -webkit-column-count: 1;
+            column-count: 1;
+            -webkit-column-gap: 1em;
+            column-gap: 1em;
+
+            li.project-item {
+                margin: 0 20px 20px;
+                width: calc(100% - 35px);
             }
         }
     }

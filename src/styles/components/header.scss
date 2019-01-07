@@ -24,6 +24,7 @@ header.header {
 
         nav {
             padding-top: 2px;
+            z-index: 10000;
             ul {
                 display: flex;
                 flex-direction: row;
