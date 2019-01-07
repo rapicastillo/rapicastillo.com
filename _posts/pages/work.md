@@ -29,10 +29,12 @@ workList:
     date: 2017-05-07T08:06:56.291Z
     endDate: 2019-01-07T20:07:23.522Z
     skills:
-      - JavaScript
-      - ReactJS
       - React Native
-      - Mapbox GL JS
+      - ReactJS
+      - Redux
+      - JavaScript
+      - PostgreSQL
+      - MySQL
     title: Tech Consultant
     image: /images/uploads/rapi-castillo-copy.jpg
     url: 'https://www.rapicastillo.com'
@@ -57,8 +59,44 @@ workList:
       - React Native
       - Ruby on Rails
       - JavaScript
+      - PostgreSQL
     title: Ipsy — Full Stack Developer
     image: /images/uploads/ipsy.png
     url: www.ipsy.com
+  - annotation: >-
+      Developed various solutions in PHP and JavaScript, mostly with Drupal 6/7.
+      Worked on the Agency's Strategic Communications branch, tech liaison for
+      UN Secretariat campaigns — most notably the World Humanitarian Day (2016,
+      2017)
+    date: 2013-05-27T19:13:42.587Z
+    endDate: 2015-12-31T20:13:42.605Z
+    skills:
+      - PHP
+      - Drupal
+      - JavaScript
+      - Python
+      - D3
+      - Leaflet
+      - Mapbox GL JS
+      - jQuery
+      - MySQL
+    title: >-
+      United Nations Office for the Coordination of Humanitarian Affairs —
+      Technical Focal Point
+    image: /images/uploads/ocha-logo.png
+    url: 'http://www.unocha.org'
+  - annotation: >-
+      Worked remotely from Manila. Oversaw tech direction of the startup based
+      in Milpitas, California.
+    date: 2011-06-09T19:18:17.900Z
+    endDate: 2013-04-17T19:18:17.920Z
+    skills:
+      - PHP
+      - jQuery
+      - JavaScript
+      - MySQL
+    title: Design My Meals — Director of Software Engineering
+    image: /images/uploads/screen-shot-2019-01-07-at-3.15.52-pm.png
+    url: '#'
 ---
 The following are projects I have worked on as a full time employee and as a freelance developer.
