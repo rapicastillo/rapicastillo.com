@@ -18,9 +18,9 @@ class Header extends React.Component {
   toggleMenu = () => {
     if (this.state.open) {
       this.setState({ open: false });
-      document.body.style.overflow = 'auto';
+      document.body.classList.remove('menu--open');
     } else {
-      document.body.style.overflow = 'hidden';
+      document.body.classList.add('menu--open');
       this.setState({ open: true });
     }
     

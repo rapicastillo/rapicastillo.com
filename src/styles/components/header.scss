@@ -1,6 +1,12 @@
 @import '../lib/global';
-header.header {
 
+@include mobile {
+    body.menu--open #___gatsby > div {
+        outline: none;height: 100vh;overflow: hidden;
+    }
+}
+
+header.header {
     div.viewport {
         display: flex;
         flex-direction: row;
