@@ -22,8 +22,11 @@ const IndexPage = () => (
         <div className='spiel'>
           <h1>Hi! I'm Rapi</h1>
           <p>I'm a tech worker, community organizer, and amateur baker based in New York.<br/>
-            In my work, I always aim to create solutions that empower people and build meaningful relationships.</p>
-          <Link className={'button'} to="/about/" style={{marginTop: 10 }}>Read more</Link>
+            In my work, I always aim to create sustainable solutions that empower people and build strong relationships.</p>
+          <p className='cta'>
+            <Link className={'button'} to="/about/" style={{marginTop: 10 }}>Read more</Link>
+            <a href='mailto: hi@rapicastillo.com' style={{marginLeft: 10}}>or email me</a>
+          </p>
           <p><a className={'download'} target='_blank' href='/files/rapiresume.pdf'><FaDownload /> Download my Resume</a></p>
         </div>
     </div>

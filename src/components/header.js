@@ -46,7 +46,7 @@ class Header extends React.Component {
             <li><Link to='/projects/'>Work</Link></li>
             <li><Link to='/media/'>Media Appearance</Link></li>
             <li><Link to='/codingasbaking/'>Code as Bake</Link></li>
-            <li><a rel="noopener noreferrer" href='/files/rapiresume.pdf' className='resume button' target='_blank'><FaDownload /> Download Resume</a></li>
+            <li><a rel="noopener noreferrer" href='/files/rapiresume.pdf' className='resume button' target='_blank' style={{marginTop: 5}}><FaDownload /> Download Resume</a></li>
           </ul>
         </nav>
       </div>
