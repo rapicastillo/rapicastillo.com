@@ -16,6 +16,9 @@
         padding: 2px;
         font-size: 11px;
         width: 100%;
+        a {
+            color: $green;
+        }
     }
 
     &.page-with-header {
@@ -36,9 +39,7 @@
             height: 100px;
             background-color: $dark-white;
 
-            a {
-                color: $green;
-            }
+            
         }
     }
 
