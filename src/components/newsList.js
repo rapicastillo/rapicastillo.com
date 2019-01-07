@@ -28,7 +28,6 @@ class NewsList extends React.Component {
                     <div className={'publisher-container'}>
                         <span className='publisher'>
                             <img src={item.publisher.image} className='publisher-img' />
-                            <span>{item.publisher.name}</span>
                             <span className='date'>{item.date}</span>
                         </span>
                     </div>
