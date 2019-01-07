@@ -1,6 +1,6 @@
 ---
 uniq: projects
-title: Projects
+title: Select Projects
 image: /images/uploads/screen-shot-2019-01-06-at-1.17.43-am.png
 projectList:
   - annotation: The project practiced radical transparency.
@@ -58,16 +58,37 @@ projectList:
     image: /images/uploads/womensmarch.png
     url: 'https://www.womensmarch.org'
   - annotation: >-
-      Support and build maps for CT Dems. Integration with the organization's
-      CRM.
-    date: 2017-10-17T15:10:00.402Z
+      Toolkit for organizers and new comers. Shows all the concepts necessary to
+      become an effective activist and organizer.
+    date: 2017-10-10T18:48:09.460Z
     skills:
-      - Leaflet
-      - Python
-      - Leaflet
       - JavaScript
-    title: Fight Back CT — Map
-    image: /images/uploads/fightbackct.png
-    url: 'https://map.fightbackct.com/'
+      - React JS
+      - Redux
+    title: Beautiful Rising
+    image: /images/uploads/beautifulrising.png
+    url: 'https://beautifulrising.org/'
+  - annotation: >-
+      Project with Messengers of Humanity and UN OCHA. Created a story /
+      interactive that captures the plight of the people of South Sudan as they
+      enter a food shortage.
+    date: 2019-01-07T19:50:42.057Z
+    skills:
+      - PHP
+      - JavaScript
+      - SASS
+    title: 'South Sudan: A Man-Made Catastrophe'
+    image: /images/uploads/southsudan.png
+    url: 'http://southafrica.messengersofhumanity.org/'
+  - annotation: >-
+      Winner of best poster paper at the 2011 Advances in Social Networks
+      Analysis and Mining. Co-authored with Gerard Cabunducan and John Boaz Lee
+    date: 2011-07-26T19:01:52.496Z
+    skills:
+      - Python
+      - R
+    title: Voting Behavior Analysis in the Election of Wikipedia Admins
+    image: /images/uploads/asonam.png
+    url: 'https://ieeexplore.ieee.org/document/5992657'
 ---
-These are projects done through the years.
+Featured projects I've done through the years
