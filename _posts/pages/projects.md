@@ -46,8 +46,10 @@ projectList:
     url: 'https://walkoutthevote.org'
   - annotation: >-
       Map used to organize and bring people to thousands of March to the Poll
-      events.
-    date: 2019-01-06T16:09:59.030Z
+      events. Aside from the Women's March, I have also made maps for various
+      organizations  and campaigns like Indivisible, Andrew Gillum for Governor,
+      and Working Families Party.
+    date: 2018-09-09T15:09:59.030Z
     skills:
       - Python
       - Leaflet
@@ -71,7 +73,8 @@ projectList:
   - annotation: >-
       Project with Messengers of Humanity and UN OCHA. Created a story /
       interactive that captures the plight of the people of South Sudan as they
-      enter a food shortage.
+      enter a food shortage. I have made other interactives and multimedia
+      journeys with the UN, focused on crises.
     date: 2019-01-07T19:50:42.057Z
     skills:
       - PHP
