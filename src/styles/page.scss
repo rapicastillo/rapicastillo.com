@@ -35,6 +35,10 @@
         footer {
             height: 100px;
             background-color: $dark-white;
+
+            a {
+                color: $green;
+            }
         }
     }
 
