@@ -29,4 +29,4 @@ speechList:
     image: /images/uploads/devbootcamp.png
     url: 'https://www.meetup.com/DBC-NYC/events/238678650/'
 ---
-As a leader in technology in grassroots communities, I've been invited to speak in various events. Topics range from organizing tech workers to do good, the impact of open source technology in progressive electoral and advocacy campaigns, and in building technology for the grassroots.
+As a leader in progressive  grassroots technology and community organizing, I've been invited to speak in various conferences and events. Topics I've spoken about range from organizing tech workers to do good, the impact of open source technology in progressive electoral and advocacy campaigns, and building technology for the grassroots.

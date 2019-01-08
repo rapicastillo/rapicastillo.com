@@ -77,9 +77,8 @@ projectList:
       interactive that captures the plight of the people of South Sudan as they
       enter a food shortage. I have made other interactives and multimedia
       journeys with the UN, focused on crises.
-    date: 2019-01-07T19:50:42.057Z
+    date: 2015-08-07T19:50:42.057Z
     skills:
-      - ''
       - PHP
       - JavaScript
       - SASS
@@ -98,4 +97,4 @@ projectList:
     image: /images/uploads/asonam.png
     url: 'https://ieeexplore.ieee.org/document/5992657'
 ---
-Featured projects I've done through the years
+Some examples of projects I'm proud of.

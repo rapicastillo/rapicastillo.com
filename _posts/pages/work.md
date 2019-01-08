@@ -3,7 +3,7 @@ uniq: work
 title: Work History
 image: /images/uploads/screen-shot-2019-01-06-at-1.17.43-am.png
 workList:
-  - annotation: Application used in a lot of Grassroots campaigns
+  - annotation: Application used in a lot of Grassroots campaigns.
     date: 2018-06-05T08:08:42.456Z
     endDate: null
     skills:
@@ -99,4 +99,4 @@ workList:
     image: /images/uploads/screen-shot-2019-01-07-at-3.15.52-pm.png
     url: '#'
 ---
-The following are projects I have worked on as a full time employee and as a freelance developer.
+Professional practice on various companies and organizations.
