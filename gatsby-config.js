@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: ` | Rapi Castillo is a tech worker, community organizer, and amateur baker`,
+    title: `Rapi Castillo is a tech worker, community organizer, and amateur baker`,
     description: `Rapi Castillo is a tech worker, community organizer, and (amateur) baker. He has developed maps, interactives, mobile application, and websites for various clients in the non-profit and startup sector. He has founded and volunteers for open-source centered organizations and community organizations. He lives in Queens, New York with his husband Benny and cat Poufie.`,
     author: `@pikittakbo`,
   },
