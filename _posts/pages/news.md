@@ -97,7 +97,7 @@ newsList:
     url: >-
       https://www.politico.com/magazine/story/2016/02/bernie-sanders-army-of-coders-2016-213647
   - annotation: Map work featured in the article.
-    date: 2019-01-07T19:29:52.919Z
+    date: 2015-09-05T18:29:52.919Z
     title: Legion of Tech Volunteers Lead a Charge for Bernie Sanders
     image: /images/uploads/legion.png
     publisher:
