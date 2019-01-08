@@ -51,7 +51,7 @@ workList:
       - people management
     title: Co-President — Progressive HackNight
     image: /images/uploads/hacknight-logi.png
-    url: www.progressivehacknight.org
+    url: https://www.progressivehacknight.org
   - annotation: React Native and Ruby on Rails developer for the company’s Shopper App
     date: 2016-01-31T20:10:48.752Z
     endDate: 2017-03-31T19:10:48.772Z
@@ -62,7 +62,7 @@ workList:
       - PostgreSQL
     title: Ipsy — Full Stack Developer
     image: /images/uploads/ipsy.png
-    url: www.ipsy.com
+    url: https://www.ipsy.com
   - annotation: >-
       Developed various solutions in PHP and JavaScript, mostly with Drupal 6/7.
       Worked on the Agency's Strategic Communications branch, tech liaison for
