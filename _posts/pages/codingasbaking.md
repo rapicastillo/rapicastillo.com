@@ -19,14 +19,14 @@ bakeList:
     name: Sourdough Baguettes
     url: 'https://www.kingarthurflour.com/recipes/sourdough-baguettes-recipe'
 ---
-I started baking in 2018, after I binged watched Great British Bakeoff on Netflix. I have always wanted to bake. When I was still living in the Philippines as a child, I would salivate on the images of baked goods in American cookbooks. Ovens were a rarity (if non-existent) in households there, but here in America there's an oven in every house, so I was empowered in experimenting different bakes. 
+I started baking in 2018, after repeatedly binge-watching _The Great British Bake Off_ on Netflix. I'd always wanted to bake — when I was still living in the Philippines as a child, I'd salivate over images of baked goods in American cookbooks. But ovens were a rarity in Filipino households, a luxury for the well-to-do. Here in America, there's an oven in every house. And after my Netflix binge, I felt empowered to try my hand at different bakes. 
 
-And of course, I started with croissants. 
+And of course, for my very first bake, I started with: croissants. 
 
-My husband thought I was crazy. Croissants are infamously very hard - but I was adamant. Failure is of course an option - and failure is what happened. My first bake was ugly, raw, and bad! 
+Croissants are infamously difficult and finicky. My husband kept advising me, "why not try something simple first?" But I was adamant! Failure was, of course, a possibility — and failure is what happened. My first bake was ugly, raw, and very bad! 
 
-I really wanted to make croissants so after that first attempt, I started baking basic bread: flour, water, salt, yeast. Knead, rest, bake. Pretty standard. But after six months of practicing up, I was finally able to create my first decent and very butter croissants.
+But I _really_ wanted to make croissants, so after that first attempt (well, first three attempts, all in a row), I scaled back. I started again, this time with basic bread: flour, water, salt, yeast. Knead; rest; bake. My loaves came out beautifully, and after six months of practicing and trying new recipes and scaling up, I was _finally_ able to do it — I created my very own flakey, buttery croissants!
 
-I was so joyful in baking, I started organizing bakeoffs with family, friends, and people I work with. I wanted to share how fun and rewarding it was to create something out of nothing, give joy to people, and build relationship.
+I took so much joy in baking, I started organizing bake offs with family, friends, and people I work with. Anything for an excuse to bake! I wanted to share with everyone how fun and rewarding it could be to create something marvelous and elaborate out of such basic, "nothing" ingredients, and in the process give joy to people and build relationships.
 
-This is how I see coding is. Tech work should always be a means to create something out of nothing, give joy to people, and build relationships. This, I think, should be the center of any industry that creates things. It's a practice I have been doing for a long time now, and is at the center of everything I build, plan, and organize, may it be a community of tech workers, a bakeoff, or a tech project.
+My approach to baking mirrors how I've always looked at coding. Tech work should be a means to not just create something out of nothing, but to empower people, and to build relationships. This mentality is an approach which, I think, could apply to any industry, but is especially sorely needed in tech today. It has been a practice of mine for a long time, and it is at the center of everything I build, plan, and organize — whether it be a community of tech workers, a bake off, or a tech project.
