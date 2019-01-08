@@ -82,6 +82,7 @@
 
                 a {
                     font-weight: 600;
+                    display: inline;
                     transition: color 0.4s;
                     &:hover {
                         color: $dark-green;
