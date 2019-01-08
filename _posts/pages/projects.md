@@ -85,7 +85,7 @@ projectList:
       - Drupal
     title: 'South Sudan: A Man-Made Catastrophe'
     image: /images/uploads/southsudan.png
-    url: 'http://southafrica.messengersofhumanity.org/'
+    url: 'http://southsudan.messengersofhumanity.org/'
   - annotation: >-
       Winner of best poster paper at the 2011 Advances in Social Networks
       Analysis and Mining. Co-authored with Gerard Cabunducan and John Boaz Lee

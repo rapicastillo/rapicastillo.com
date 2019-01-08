@@ -13,10 +13,10 @@ const IndexPage = () => (
     <div className='content'>
         <div className='images'>
           <ul>
-            <li><img src='/images/responsive.png'/></li>
-            <li><img src='/images/social-care.png'/></li>
-            <li><img src='/images/team.png'/></li>
-            <li><img src='/images/croissant-256.png'/></li>
+            <li><a href='/projects/'><img src='/images/responsive.png'/></a></li>
+            <li><a href='/speeches/'><img src='/images/social-care.png'/></a></li>
+            <li><a href='/work/'><img src='/images/team.png'/></a></li>
+            <li><a href='/codingasbaking/'><img src='/images/croissant-256.png'/></a></li>
           </ul>
         </div>
         <div className='spiel'>
