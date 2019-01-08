@@ -10,6 +10,7 @@ projectList:
       - AWS
       - JavaScript
       - Leaflet
+      - Python
     title: Plan to Win Map — Beto for Texas
     image: /images/uploads/screen-shot-2019-01-04-at-1.07.30-pm.png
     url: 'https://win.betofortexas.com'
@@ -26,6 +27,7 @@ projectList:
       - Linux
       - Mapbox GL JS
       - D3
+      - Python
     title: 350.org Megamap
     image: /images/uploads/350map.png
     url: 'https://350map.org'
@@ -77,9 +79,11 @@ projectList:
       journeys with the UN, focused on crises.
     date: 2019-01-07T19:50:42.057Z
     skills:
+      - ''
       - PHP
       - JavaScript
       - SASS
+      - Drupal
     title: 'South Sudan: A Man-Made Catastrophe'
     image: /images/uploads/southsudan.png
     url: 'http://southafrica.messengersofhumanity.org/'
