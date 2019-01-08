@@ -3,7 +3,12 @@ uniq: projects
 title: Select Projects
 image: /images/uploads/screen-shot-2019-01-06-at-1.17.43-am.png
 projectList:
-  - annotation: The project implemented the campaign's radical transparency strategy. The interactive map answers the question "where can I be most effective right now." The map leverages mapbox fast load times by processing geojsons into vector tiles as well as cherry picking necessary data to visualize the status of the door knocking campaign.
+  - annotation: >-
+      The project implemented the campaign's radical transparency strategy. The
+      interactive map answers the question "where can I be most effective right
+      now." The map leverages mapbox fast load times by processing geojsons into
+      vector tiles as well as cherry picking necessary data to visualize the
+      status of the door knocking campaign.
     date: 2018-11-06T18:08:19.074Z
     skills:
       - Mapbox GL JS
@@ -85,7 +90,7 @@ projectList:
       - Drupal
     title: 'South Sudan: A Man-Made Catastrophe'
     image: /images/uploads/southsudan.png
-    url: 'http://southafrica.messengersofhumanity.org/'
+    url: 'http://southsudan.messengersofhumanity.org/'
   - annotation: >-
       Winner of best poster paper at the 2011 Advances in Social Networks
       Analysis and Mining. Co-authored with Gerard Cabunducan and John Boaz Lee
