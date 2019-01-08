@@ -5,7 +5,7 @@ image: /images/uploads/screen-shot-2019-01-06-at-1.17.43-am.png
 workList:
   - annotation: Application used in a lot of Grassroots campaigns
     date: 2018-06-05T08:08:42.456Z
-    endDate: 2019-01-07T20:07:23.540Z
+    endDate: null
     skills:
       - React Native
       - ReactJS
@@ -27,7 +27,7 @@ workList:
     url: 'https://betofortexas.com'
   - annotation: Freelancer
     date: 2017-05-07T08:06:56.291Z
-    endDate: 2019-01-07T20:07:23.522Z
+    endDate: null
     skills:
       - React Native
       - ReactJS
@@ -43,7 +43,7 @@ workList:
       Focused on organizing events and educating tech workers about the current
       issues.
     date: 2017-03-09T20:07:30.315Z
-    endDate: ''
+    endDate: null
     skills:
       - Organizing
       - Event organizing
