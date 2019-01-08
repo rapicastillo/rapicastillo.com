@@ -16,7 +16,7 @@ const WorkPage = ({ data: { page: {
     console.log(workList);
     return (
       <Page className={'work'}>
-        <SEO title="Page two" />
+        <SEO title="Work History" />
         <div className='content'>
           
           <div className='featured-image' style={{backgroundImage: `url(${image})`}}>

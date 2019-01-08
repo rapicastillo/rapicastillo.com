@@ -16,7 +16,7 @@ const AboutPage = ({ data: { page: {
     console.log(expert, skilled, rusty, bakes);
     return (
       <Page className='about'>
-        <SEO title="About Rapi | Rapi Castillo is a tech worker, community organizer, and amateur baker" />
+        <SEO title="About Rapi" />
         <div className='content'>
           <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
             <h1>{title}</h1>

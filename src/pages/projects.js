@@ -16,7 +16,7 @@ const ProjectsPage = ({ data: { page: {
 
     return (
       <Page className={'projects'}>
-        <SEO title="Page two" />
+        <SEO title="Select Works" />
         <div className='content'>
           
           <div className='featured-image' style={{backgroundImage: `url(${image})`}}>
