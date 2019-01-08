@@ -18,6 +18,9 @@ bakeList:
   - image: /images/uploads/bagettes.png
     name: Sourdough Baguettes
     url: 'https://www.kingarthurflour.com/recipes/sourdough-baguettes-recipe'
+  - image: /images/uploads/croissants.png
+    name: Croissants
+    url: '#'
 ---
 I started baking in 2018, after repeatedly binge-watching _The Great British Bake Off_ on Netflix. I'd always wanted to bake — when I was still living in the Philippines as a child, I'd salivate over images of baked goods in American cookbooks. But ovens were a rarity in Filipino households, a luxury for the well-to-do. Here in America, there's an oven in every house. And after my Netflix binge, I felt empowered to try my hand at different bakes. 
 
