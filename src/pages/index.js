@@ -9,7 +9,7 @@ import { FaDownload } from 'react-icons/fa';
 
 const IndexPage = () => (
   <Page className='index' showHeader={false} >
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Hi, I'm Rapi!" keywords={[`gatsby`, `application`, `react`]} />
     <div className='content'>
         <div className='images'>
           <ul>
